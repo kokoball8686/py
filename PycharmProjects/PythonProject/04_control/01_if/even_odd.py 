@@ -1,0 +1,22 @@
+num1 = int(input('입력1: '))
+num2 = int(input('입력2: '))
+
+
+
+
+if num1 > num2:
+    bignum = num1
+elif num1 < num2:
+    bignum = num2
+else:
+    bignum = '같음'
+
+print('큰 수', bignum)
+
+
+if (bignum % 2) == 0:
+    even = '짝수'
+else:
+    even = '홀수'
+
+print('짝홀수:', even)
